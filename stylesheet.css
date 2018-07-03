@@ -1,0 +1,202 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  background-color: rgba(232,232,232,0.5);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:  black;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.container2{
+	width: 900px;
+	margin: 0 auto;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 65px;
+	background-color: rgba(255,255,255,0.7);
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+.header-left{
+	float: left;
+	font-size: 30px;
+	line-height: 65px;
+}
+.header-right{
+	float: right;
+	list-style: none;
+}
+.header-right li{
+	float: left;
+	line-height: 65px;
+	padding-right: 30px;
+}
+.top-wrapper{
+	color: white;
+	padding: 280px 0 350px 0;
+	text-align: center;
+	background-image: url(img/Liquorbottles.jpg);
+}
+.top-wrapper h1{
+	line-height: 110%;
+	font-weight: normal;
+	font-size: 100px;
+	opacity: 0.8;
+}
+.top-wrapper h2{
+	font-weight: normal;
+	font-size: 10px;
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+
+
+.profile{
+	font-family: 'HiraMinProN-W3';
+}
+.icon img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+}
+.name{
+	padding-bottom: 14px;
+	margin-bottom: 19px;
+	border-bottom: 1px solid #C1C1C1;
+}
+.jp-name{
+	font-size: 30px;
+}
+.eng-name{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 17px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+.header{
+	text-align: center;
+	padding: 60px 0 50px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 95px;
+}
+.text{
+	margin-bottom: 15px;
+}
+.contents{
+	float: left;
+	width: 33%;
+	padding-right: 60px;
+	box-sizing: border-box;
+}
+.dai{
+	font-size: 23px;
+	padding-bottom: 5px;
+	margin-bottom: 9px;
+	border-bottom: 1px solid #C1C1C1;
+}
+.clear{
+	clear: left;
+}
+.works img{
+	padding: 0 10px 20px 10px;
+	float: left;
+	border-radius: 50%;
+	width: 33%;
+	box-sizing: border-box;
+}
+.header2{
+	text-align: center;
+	padding: 40px 0 50px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 95px;
+}
+.blog h2{
+	font-size: 50px;
+	text-align: center;
+}
+.blog a{
+	font-weight: 100;
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+}
+.contact{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.hidari{
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+	float: left;
+	width: 10%;
+	height: 200px;
+}
+.hidari p{
+	margin-bottom: 12px;
+}
+.input{
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+.input input{
+	height: 18px;
+	width: 80%;
+	margin-bottom: 10px;
+	border:1px solid #dee7ec;
+	border-radius: 2px;
+}
+.input .send{
+	display: inline-block;
+	margin-top: 42px;
+	margin-left: 27px; 
+	width: 85%;
+}
+.send input{
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック"; 
+	height: 20px;
+	background-color: #E5E5E5;
+	cursor: pointer;
+}
+.migi{
+	float; left;
+	height: 200px;
+}
+.migi textarea{
+	position: relative;
+	top: 3px;
+	width: 570px;
+	height: 160px;
+	border:1px solid #dee7ec;
+	border-radius: 2px;
+}
+footer{
+	height: 105px;
+}
+.top{
+	margin: 0 auto;
+	text-align: center;
+	width: 15%;
+}
+.top p{
+	padding-bottom: 12px;
+	border-bottom: 1px solid;
+}
