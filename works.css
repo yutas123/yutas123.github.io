@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(242,242,242,0.5);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:  black;
+}
+
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+}
+h1{
+	font-weight: normal;
+	font-size: 40px;
+	padding: 20px 0;
+	font-family: "HiraginoSans-W0","ヒラギノ角ゴシック W0";
+}
+img{
+	width: 100%;
+	border-radius: 1px;
+}
+.img{
+	padding-bottom: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.text{
+	width: 80%;
+	padding-bottom: 20px;
+}
+.gallery-cell{
+	width: 100%;
+}
+.top{
+	margin: 0 auto;
+	text-align: center;
+	width: 15%;
+	padding-bottom: 20px;
+	position: relative;
+	top: 40px;
+}
+.top p{
+	padding-bottom: 12px;
+	border-bottom: 1px solid;
+}
