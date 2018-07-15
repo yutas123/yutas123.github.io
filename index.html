@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <title>KobayashiYutaka</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" title="" type="" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="aaa.js"></script>
 </head>
   <body>
   	<header>
@@ -14,13 +18,24 @@
   			<div class="header-left">Portfolio</div>
   			<div class="header-right">
   				<ul>
-  					<li><a href="#">PROFILE</a></li>
-  					<li><a href="#">WORKS</a></li>
-  					<li><a href="#">BLOG</a></li>
-  					<li><a href="#">CONTACT</a></li>
+  					<span class="under"><li><a href="#profile">PROFILE</a></li></span>
+  					<span class="under"><li><a href="#works">WORKS</a></li></span>
+  					<span class="under"><li><a href="#blog">BLOG</a></li></span>
+  					<span class="under"><li><a href="#contact">CONTACT</a></li></span>
   				</ul>
   			</div>
   	 </div>
+    <nav class="globalMenuSp">
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="navToggle">
+     <span></span><span></span><span></span><span>menu</span>
+  </div>
   	</header>
     <div class="top-wrapper">
       <div class="container2">
@@ -28,7 +43,7 @@
         <h2>designed by kobayashi yutaka</h2>
       </div>
     </div>
-    <div class="profile">
+    <div class="profile" id="profile">
       <div class="container2">
         <p class="header">Profile</p>
         <div class="icon"><img src="img/nyoronyoro.jpg"></div>
@@ -74,25 +89,25 @@
         </div>
       </div>
     </div>
-    <div class="works">
+    <div class="works" id="works">
       <div class="container2">
         <h1 class="header">Works</h1>
-        <img src="img/dazai.jpg">
-        <img src="img/bone.jpg">
-        <img src="img/UNCHAIN.jpg">
-        <img src="img/DARS.jpg">
-        <img src="img/onsen.jpg">
-        <img src="img/uma.jpg">
+        <a href="works.html#dazai"><img src="img/dazai.jpg"></a>
+       	<a href="works.html#bone"><img src="img/bone.jpg"></a>
+        <a href="works.html#unchain"><img src="img/unchain.jpg"></a>
+        <a href="works.html#dars"><img src="img/dars.jpg"></a>
+        <a href="works.html#onsen"><img src="img/onsen.jpg"></a>
+        <a href="works.html#visco"><img src="img/visco.jpg"></a>
         <div class="clear"></div>
       </div>
     </div>
-    <div class="blog">
+    <div class="blog" id="blog">
       <div class="container2">
       <h1 class="header2">Blog</h1>
       <h2><a href="#">(⌒,_ゝ⌒)ゆっくりしていけ....</a></h2>  
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="container2">
       <h1 class="header">Contact</h1>
       <div class="hidari">
@@ -111,12 +126,12 @@
       </div>
     </div>
   </div>  
-  <footer>
-    <div class="container2">
-      <div class="top">
-        <p><a href="">TOP</a></p>
-      </div>
-    </div>
-  </footer>
+    <footer>
+      <div class="container2">
+       <div class="top">
+          <p><a href="">TOP</a></p>
+       </div>
+     </div>
+    </footer>
   </body>
 </html>
